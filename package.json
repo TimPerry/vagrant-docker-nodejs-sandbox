@@ -1,0 +1,28 @@
+{
+  "name": "vagrant-docker-nodejs-sandbox",
+  "version": "1.0.0",
+  "description": "# Install",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "NODE_ENV=test ./node_modules/.bin/jasmine",
+    "dev": "./node_modules/.bin/nodemon -L server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimPerry/vagrant-docker-nodejs-sandbox.git"
+  },
+  "author": "Tim Perry <me@timperry.co.uk> (http://www.timperry.co.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimPerry/vagrant-docker-nodejs-sandbox/issues"
+  },
+  "homepage": "https://github.com/TimPerry/vagrant-docker-nodejs-sandbox",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.0",
+    "nodemon": "^1.8.1"
+  }
+}
